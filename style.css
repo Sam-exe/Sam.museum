@@ -68,12 +68,10 @@ body{
     text-align: left;
     justify-content: flex-start;
 }
-#news{
+#news,#contact{
     flex-basis: 50%;
 }
-#contact{
-    flex-basis: 50%;
-}
+
 #about{
     gap: 3rem; 
 }
@@ -146,5 +144,9 @@ main > article > .forth {
     margin-right: 60px;
 }
 #button2, #button1{
+    height: 120px; 
+}
+
+#button2:hover, #button1:hover{
     height: 120px; 
 }
