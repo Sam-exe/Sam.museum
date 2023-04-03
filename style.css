@@ -123,27 +123,28 @@ main > article > .forth > .buttons a{
     
     
 }
-main > article > .forth > .buttons{
-    display:flex;
+main > article > .forth {
+    background-color: #fffafa;
+    display: flex;
+    position: relative;
+    display: flex;
     justify-content: space-between;
     top: 0;
     z-index: 0;
     transition-duration: 1s;
-    transition: all 1s;  
-    flex-direction: row;
-    
-    flex-grow: 1
-}
-#left{
-    height: 100px;
-    text-align: left;
-}
-#right{
-    height: 100px;
-    text-align: right;
+    transition: all 1s;   
+    align-items: center;
 }
 
-main > article > .forth > .buttons {
-    text-align: right;
-    height: 100px;
+#button1{
+    margin-right: 20px;
+    margin-left: 60px;
+    transform: rotate(0.5turn);
+}
+#button2{
+    margin-left: 20px;
+    margin-right: 60px;
+}
+#button2, #button1{
+    height: 120px; 
 }
