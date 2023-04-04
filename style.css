@@ -63,6 +63,11 @@ body{
     color: #000000;
     transition: 0.3s;
 }
+.forth:hover{
+    margin-left: 200px;
+    margin-right: 60px;
+    background-color: #ffffff;
+}
 #home{
     flex-basis: calc(100% * (2 / 3));
     text-align: left;
@@ -94,35 +99,29 @@ main > article{
 }
 main > article > .article-section{
     border-style: solid;
-    border-color: #000000;
-    background-color: rgb(90, 101, 110);
+    border-color: #292929;
+    border-width: 1px;
+    background-color: rgb(0, 0, 0);
     
 }
 
 main > article > .first{
-background-color: #ffffff;
+
 }
 
 main > article > .second{
-    background-color: #cdafaf;
+    
 }
 main > article > .thurd{
-    background-color: #281515;
+    
 }
 main > article > .forth{
-    background-color: #000000;
+    
 }
 
-main > article > .forth > .buttons a{
-    color: #ffffff;
-    background-color: #fffafa;
-    text-decoration: none;
-    position: relative;
-    
-    
-}
+
 main > article > .forth {
-    background-color: #fffafa;
+    background-color: #000000;
     display: flex;
     position: relative;
     display: flex;
@@ -134,19 +133,22 @@ main > article > .forth {
     align-items: center;
 }
 
-#button1{
+.button1{
     margin-right: 20px;
     margin-left: 60px;
     transform: rotate(0.5turn);
 }
-#button2{
+.button2{
     margin-left: 20px;
     margin-right: 60px;
 }
-#button2, #button1{
-    height: 120px; 
+.button2, .button1{
+    height: 120px;
+    filter: invert();
 }
-
-#button2:hover, #button1:hover{
-    height: 120px; 
+main > article > .forth:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: 21px;
+    color: #000000;
+    transition: 0.5s; 
 }
