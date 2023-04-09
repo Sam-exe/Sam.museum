@@ -2,6 +2,7 @@ header {
     min-height: 100vh;
     top:0;
     display: flex;
+    display: ;
     justify-content: center;
     position: relative;
     align-items:center;
@@ -34,12 +35,15 @@ body {
     
     box-shadow: 1px 1px 2px rgba(219, 216, 216, 0.543), 0 0 200px rgba(214, 214, 214, 0.379), 0 0 2em rgb(255, 255, 255);
 }
-.circle:hover{
+.circle:hover:active{
     box-shadow: 10px 5px 100px rgb(255, 255, 255);
     transform: scale(30,30);
     transition: 3s;   
+    background-color: aliceblue;
 }
-.circle:hover
+.circle:hover(){
+
+}
 
 
 
